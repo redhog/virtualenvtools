@@ -29,6 +29,6 @@ setup(
     url = "http://github.com/redhog/virtualenvtools",
     packages = find_packages(),
     package_data = {'': ['*.txt', '*.css', '*.html', '*.js']},
-    include_package_data = True
-    scripts=['list-manually-installed-packages', 'runinvirtualenv']
+    include_package_data = True,
+    scripts = ['list-manually-installed-packages', 'runinvirtualenv']
 )
